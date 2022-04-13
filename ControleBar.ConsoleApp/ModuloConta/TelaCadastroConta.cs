@@ -23,7 +23,7 @@ namespace ControleBar.ConsoleApp.ModuloMesa
         private readonly Notificador _notificador;
 
         public TelaCadastroConta(RepositorioConta repositorioConta, IRepositorio<Garcom> repoGarca, IRepositorio<MesaFisica> repoMesa,
-            Notificador notificador, TelaCadastroGarcom telaGarca, TelaCadastroMesaFisica telaMesaFisica, TelaCadastroProduto telaProd, IRepositorio<Produto> repoPro) : base("Cadastro de mesa Clientes")
+            Notificador notificador, TelaCadastroGarcom telaGarca, TelaCadastroMesaFisica telaMesaFisica, TelaCadastroProduto telaProd, IRepositorio<Produto> repoPro) : base("Cadastro de Contas")
         {
             _repositorioConta = repositorioConta;
             _telaMesaFisica = telaMesaFisica;

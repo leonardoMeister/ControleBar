@@ -29,8 +29,9 @@ namespace ControleBar.ConsoleApp.Compartilhado
 
             telaCadastroGarcom = new TelaCadastroGarcom(repositorioGarcom, notificador);
             telaCadastroProduto = new TelaCadastroProduto(repositorioProduto, notificador);
-            telaCadastroConta = new TelaCadastroConta(repositorioConta,repositorioGarcom,repositorioMesaFisica,notificador,telaCadastroGarcom,telaCadastroMesaFisica, telaCadastroProduto, repositorioProduto);
             telaCadastroMesaFisica = new TelaCadastroMesaFisica(repositorioMesaFisica, notificador);
+            telaCadastroConta = new TelaCadastroConta(repositorioConta,repositorioGarcom,repositorioMesaFisica,notificador,telaCadastroGarcom,telaCadastroMesaFisica, telaCadastroProduto, repositorioProduto);
+            
             PopularAplicacao();
         }
 
