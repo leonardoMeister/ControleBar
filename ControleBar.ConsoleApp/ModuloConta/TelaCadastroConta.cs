@@ -112,7 +112,7 @@ namespace ControleBar.ConsoleApp.ModuloMesa
             if (!conseguiuEditar)
                 _notificador.ApresentarMensagem("Não foi possível editar.", TipoMensagem.Erro);
             else
-                _notificador.ApresentarMensagem("Garçom editado com sucesso!", TipoMensagem.Sucesso);
+                _notificador.ApresentarMensagem("Conta editada com sucesso!", TipoMensagem.Sucesso);
         }
         private int PegarOpcaoVisualizacao()
         {
